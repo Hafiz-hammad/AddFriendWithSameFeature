@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Add friendfeature with same button </title>
+    <style>
+        *{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: cornflowerblue;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        #card{
+            /* padding-left: 5px; */
+            /* padding-right: 5px; */
+            padding-top: 5px;
+            width: 23%;
+            height: 60%;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center; /* Add this to center the image horizontally */
+        }
+        #card>img{
+            border-radius: 10px;
+            width: 92%;
+            height: 50%;
+            object-fit: cover;
+            margin: 0 auto; /* Add this to center the image horizontally */
+            display: block; /* Add this to remove default inline behavior */
+        }
+        #add-btn{background-color: rgb(153, 153, 191); margin-top: 12%;  border-radius: 10px;padding: 10px;width: 50%; border: none;font-size: large;font-weight: bolder;cursor: pointer;:: 
+        }
+#Unknown{
+    font-size: larger;
+    margin-top: 20px;
+}
+    </style>
+    </head>
+<body>
+    
+
+<div id="card">
+
+<img src="https://images.pexels.com/photos/675920/pexels-photo-675920.jpeg?cs=srgb&dl=pexels-minan1398-675920.jpg&fm=jpg" alt="Missing">
+<h1>Papa ke Pari</h1>
+<h5 id="Unknown">Unknown</h5>
+<div id="add">
+
+<button id="add-btn">Add Friend</button>
+
+</div>
+
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
