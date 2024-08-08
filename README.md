@@ -6,6 +6,8 @@ The 'AddFriendWithSameFeature' feature allows users to connect with others who h
 
 This project introduces the 'AddFriendWithSameFeature', a functionality that allows users to add or remove friends based on shared custom cursor settings. The feature is designed to enhance user interaction by connecting individuals with similar customization preferences.
 
+![image](https://github.com/user-attachments/assets/799193fe-6b1a-4d25-ab65-83712a3b8457)
+
 ## Features
 
 - **Add Friend:** Connect with users who have the same custom cursor settings.
@@ -21,4 +23,4 @@ This project introduces the 'AddFriendWithSameFeature', a functionality that all
 
 ## Demo
 
-[Link to the demo](#) _(Replace with actual link)_
+https://addfriendwithsamebutton.netlify.app/
